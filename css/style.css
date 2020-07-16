@@ -19,3 +19,59 @@ html{
     max-width: 1140px;
     margin: 0 auto;
 }
+h1{
+    margin: 0;
+    color: white;
+    font-size: 260%;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+h3{
+    margin: 0;
+    color: rgba(255, 255, 255, 0.432);
+    font-size: 150%;
+    font-weight: 300;
+}
+
+
+/***************************************************/
+/******************HEADER SECTION*******************/
+/**************************************************/
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../assets/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.btn{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 300;
+    border-radius: 10px;
+    border: 1px solid orange;
+    transition: background-color 0.2s ease;
+    
+}
+.btn-full{
+margin-right: 20px;
+background-color: orange;
+border: none;
+}
+.btn-ghost{
+}
+
