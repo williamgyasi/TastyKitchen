@@ -16,7 +16,7 @@ html{
 }
 
 section{
-    padding: 130px 0;
+    padding: 100px 0;
 }
 .row{
     max-width: 1140px;
@@ -145,10 +145,9 @@ border: none;
 font-size: 120%;
 padding: 10px;
 margin-top: 30px;
-border: 1px solid rgb(146, 146, 65);
+border: 1px solid rgb(247, 245, 245);
 cursor: pointer;
 border-radius: 10px;
-box-shadow: 0 1px 5px black;
 }
 .about-items h3{
 margin: 0;
@@ -176,9 +175,13 @@ text-transform: uppercase;
 /***************************************************/
 /****************** MEALS SECTION ***************/
 /**************************************************/
+.section-meals{
+    padding: 0;
+}
 .meals-showcase{
     list-style: none;
     width: 100%;
+    
 }
 .meals-showcase li{
     display: block;
@@ -189,9 +192,18 @@ text-transform: uppercase;
 .meal-photo{
     width: 100%;
     margin: 0;
+    overflow: hidden;
+    background: black;
 }
 .meal-photo img{
     width: 100%;
     height: auto;
+    transform: scale(1.13);
+    transition: transform 0.5s,opacity 0.4s;
+    opacity: 0.7;
+}
+.meal-photo img:hover{
+    transform: scale(1.07);
+    opacity: 1;
 }
 
