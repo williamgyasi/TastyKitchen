@@ -173,5 +173,25 @@ text-transform: uppercase;
 
 
 
-
+/***************************************************/
+/****************** MEALS SECTION ***************/
+/**************************************************/
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+}
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 20%;
+    height: 20%;
+}
+.meal-photo{
+    width: 100%;
+    margin: 0;
+}
+.meal-photo img{
+    width: 100%;
+    height: auto;
+}
 
