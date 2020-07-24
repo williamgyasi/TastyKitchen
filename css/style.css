@@ -207,3 +207,22 @@ text-transform: uppercase;
     opacity: 1;
 }
 
+
+/***************************************************/
+/****************** HOW IT WORKS ***************/
+/**************************************************/
+.steps-box{
+    margin-top: 20px;
+}
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+}
+.steps-box:last-child{
+padding-left: 3%;
+}
+
+.app-screen{
+    width: 40%;
+}
+ 
