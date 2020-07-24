@@ -22,6 +22,12 @@ section{
     max-width: 1140px;
     margin: 0 auto;
 }
+.clear-fix{zoom: 1;}
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
 h1{
     margin: 0;
     color: white;
@@ -211,18 +217,43 @@ text-transform: uppercase;
 /***************************************************/
 /****************** HOW IT WORKS ***************/
 /**************************************************/
-.steps-box{
-    margin-top: 20px;
-}
 .steps-box:first-child{
     text-align: right;
     padding-right: 3%;
+    margin-top: 30px;
 }
 .steps-box:last-child{
 padding-left: 3%;
+margin-top: 70px;
 }
 
 .app-screen{
     width: 40%;
+}
+
+.works-steps{
+    margin-bottom: 50px;
+    display: flex;
+
+}
+.works-steps:last-of-type{
+    margin-bottom: 40px;
+}
+.works-steps div{
+    color: orange;
+    border: 2px solid orange;
+    display: inline-block;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    font-size: 110%;
+    margin-right: 15px;
+}
+
+.btn-app img{
+    height: 50px;
+    margin-right: 10px;
 }
  
