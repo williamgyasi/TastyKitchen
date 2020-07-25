@@ -75,6 +75,7 @@ header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('../assets/header-background.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 
@@ -299,4 +300,37 @@ color: orange;
 line-height: 200%;
 font-size: 20px;
 }
- 
+
+
+/********************************************************************************/
+/***************************** TESTIMONIALS SECTION *******************************/
+/*********************************************************************************/
+.section-testimonials{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.541),rgba(0, 0, 0, 0.658)), url("/assets/testimonialback.jpg");
+    color: white;
+    background-size: cover;
+    height: 550px;
+    background-attachment: fixed;
+}
+blockquote{
+    padding: 2.5%;
+    font-style: italic;
+    line-height: 145%;
+}
+blockquote::before{
+    content: "A";
+    font-size: 400%;
+}
+
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block; 
+}
+
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
