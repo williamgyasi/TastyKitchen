@@ -351,21 +351,72 @@ cite img{
 }
 .plan-box{
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 90%;
+    box-shadow: 0 2px 2px #efefef;
     margin-left: 5%;
+}
+.plan-box div:first-child h3{
+    text-align: center;
+}
+.plan-box div:first-child{
+    background-color: #fcfcfc;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .plan-box div{
     padding: 15px;
     border-bottom: 1px solid rgba(126, 124, 124, 0.479);
 }
+.plan-box div:last-child{
+    text-align: center;
+    border-bottom: none;
+}
 .plan-price{
     font-size: 300%;
     font-weight: 100;
     margin-bottom: 10px;
+    color: orange;
+}
+
+.plan-price span{
+    font-size:30%;
+    font-weight: 300;
 }
 
 .plan-price-meal{
 font-size: 80%;
 }
+
+.plan-box ul{
+    list-style: none;
+}
+.plan-box ul li{
+    padding: 5px 0;
+
+}
+
+.plan-box ion-icon{
+    display: inline-block;
+    width: 30px;
+    vertical-align: middle;
+    margin-top: -4px;
+    color: orange;
+    line-height: 200%;
+    font-size: 20px;
+}
+
+.plan-box a{
+    color: white;
+    background-color: orange;
+    padding: 15px 20px;
+    margin-top: 20px 0;
+    display: inline-block;
+    border: none;
+    font-weight: 400;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+} 
+
+
