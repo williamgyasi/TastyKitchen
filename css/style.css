@@ -341,3 +341,31 @@ cite img{
     margin-right: 10px;
     vertical-align: middle;
 }
+
+
+/********************************************************************************/
+/***************************** PLANS SECTION *******************************/
+/*********************************************************************************/
+.section-plans{
+    background-color: rgba(204, 204, 204, 0.349);
+}
+.plan-box{
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid rgba(126, 124, 124, 0.479);
+}
+.plan-price{
+    font-size: 300%;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.plan-price-meal{
+font-size: 80%;
+}
