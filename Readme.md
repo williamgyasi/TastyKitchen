@@ -5,3 +5,9 @@
 
 # Installation
 [DEMO ✔️](https://tasty-kitchen.herokuapp.com/)
+
+
+### AUTHORS
+William Kwabena Gyasi 😎
+
+#### ©Jonas Schedtman----DESIGN INPIRATION
