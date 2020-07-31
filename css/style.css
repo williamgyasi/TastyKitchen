@@ -464,3 +464,41 @@ filter: grayscale(50%);
 input[type=checkbox]{
     margin: 10px 5px 10px 0;
 }
+
+
+/********************************************************************************/
+/***************************** FOOTER *******************************/
+/*********************************************************************************/
+footer{
+    background-color: #333;
+    padding: 50px;
+}
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style-type: none;
+    float: right;
+}
+
+.footer-nav li,.social-links li{
+display: inline-block;
+margin-right: 10px;
+}
+.footer-nav li:last-child,
+.social-links li:last-child
+{
+    margin-right: 0;
+}
+
+.footer-nav li a,.social-links li a{
+    color: rgb(194, 191, 191);
+}
+
+footer p{
+    font-size: 90%;
+    text-align: center;
+    
+}
