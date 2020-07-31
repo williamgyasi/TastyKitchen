@@ -420,3 +420,25 @@ font-size: 80%;
 } 
 
 
+
+/********************************************************************************/
+/*****************************REACH OUT TO US SECTION *******************************/
+/*********************************************************************************/
+
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+
+input[type="text"],input[type="email"],select,textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #cacaca;
+}
+
+textarea{
+    height: 100px;
+}
