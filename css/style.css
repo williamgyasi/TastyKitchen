@@ -6,6 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+*:focus{
+    outline: none;
+}
 
 html{
     background-color: #fff;
@@ -441,4 +444,23 @@ input[type="text"],input[type="email"],select,textarea{
 
 textarea{
     height: 100px;
+}
+
+input[type=submit]{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 3px #9e9d9d;
+    transition: all 0.5s ease;
+}
+
+input[type=submit]:hover{
+filter: grayscale(50%);
+}
+
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
 }
