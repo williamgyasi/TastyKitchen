@@ -229,13 +229,14 @@ text-transform: uppercase;
 .section-steps{
     background-color: rgba(204, 204, 204, 0.349);
 }
+
 .steps-box:first-child{
     text-align: right;
     padding-right: 3%;
     margin-top: 30px;
 }
 .steps-box:last-child{
-padding-left: 3%;
+padding-left: 4%;
 margin-top: 70px;
 }
 
@@ -246,22 +247,24 @@ margin-top: 70px;
 .works-steps{
     margin-bottom: 50px;
     display: flex;
+    align-items: center;
 
 }
 .works-steps:last-of-type{
     margin-bottom: 40px;
 }
 .works-steps div{
-    color: orange;
-    border: 2px solid orange;
-    display: inline-block;
-    width: 40px;
-    height:40px;
+    margin-right: 20px;
+    background-color: orange;
+    color: white;
+    width: 30px;
+    display: flex;
+    padding: 20px;
+    height: 30px;
+    justify-content: center;
+   
     border-radius: 50%;
-    text-align: center;
-    padding: 5px;
-    font-size: 110%;
-    margin-right: 15px;
+    align-items: center;
 }
 
 .btn-app img{
@@ -507,4 +510,52 @@ footer p{
 /**********************************************************************************/
 /***************************** MEDIA QUERIES *************************************/
 /*********************************************************************************/
-@media and only screen(max-width:
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        padding: 0 5%;    
+        width: 100%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+
+}
+
+@media only screen and (max-width:1023px){
+    body{
+        font-size: 18px;
+    }
+    section{
+        padding: 70px 0;
+    }
+    .long-copy{
+        width: 80%;
+        margin: 0 10%;
+    }
+    .logo {
+        width: 80px;
+        height: 80px;
+        float: left;
+    }
+    .steps-box{
+        margin-top: 20px;
+    }
+    .steps-box:last-child {
+        padding-left: 3%;
+        margin-top: 4%;
+    }
+    
+}
+
+@media only screen and (max-width:767px){
+  
+    
+}
+
+@media only screen and (max-width:480px){
+    
+}
+
+@media only screen and (max-width:280px){
+    
+}
