@@ -527,7 +527,7 @@ footer p{
         font-size: 18px;
     }
     section{
-        padding: 70px 0;
+        padding: 80px 0;
     }
     .long-copy{
         width: 80%;
@@ -566,7 +566,7 @@ footer p{
         font-size: 16px;
     }
     section{
-        padding: 50px 0;
+        padding: 60px 0;
     }
     .row{
         padding: 0 4%;
@@ -584,6 +584,12 @@ footer p{
     h2{
         font-size: 180%;
     }
+
+    .about-items p {
+        font-size: 80%;
+        line-height: 145%;
+        font-weight: 300;
+    }
     .long-copy{
         width: 80%;
         margin: 2% 10%;
@@ -597,9 +603,39 @@ footer p{
         padding-left: 3%;
         margin-top: 5.5%;
     }
-    .app-screen{
-        width: 50%;
+    .steps-box:first-child {
+        text-align: center;
+        margin-top: 10px;
     }
+    .app-screen{
+        width: 30%;
+       
+    }
+
+    .btn-app img {
+        height: 50px;
+        margin-right: 10px;
+        
+    }
+    .btn-app img:first-child{
+        margin-left: 20px;
+    }
+    .city-box img {
+        margin-bottom: 5px;
+    }
+    .city-box{
+        margin-bottom: 3%;
+    }
+    .city-feature{
+        font-size: 100%;
+    }
+
+    .section-testimonials{
+        height: 750px;
+    }
+    ci
+
+    
   
     
 }
