@@ -643,6 +643,10 @@ footer p{
         width: 80%;
         margin: 0 auto 10%;
     }
+
+    button, input, optgroup, select, textarea {
+        margin: 5px 0;
+    }
 }
 
 @media only screen and (max-width:480px){
@@ -652,10 +656,49 @@ footer p{
     section{
         padding: 50px 0;
     }
+
+    .btn-full {
+        margin-right: 2px;   
+    }
+
+    .btn-app img {
+        height: 50px;
+        width: 100px;
+    }
+    .works-steps div{
+        width: 30px;
+        height: 30px;
+    }
+
+    button, input, optgroup, select, textarea {
+        margin: 7px 0;
+    }
     
 }
 
 @media only screen and (max-width:280px){
-    
+    body{
+        font-size: 12px;
+    }
+    section{padding: 40px 0;}
+
+    .btn-app img{
+        margin-left: 10px;
+        height: 50px;
+        width: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    .city-feature{
+        padding: 5px;
+    }
+
+    .section-testimonials{
+        height: 700px;
+    }
+    button, input, optgroup, select, textarea {
+        margin: 10px 0;
+    }
+
     
 }
