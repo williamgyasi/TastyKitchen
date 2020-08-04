@@ -16,6 +16,7 @@ html{
     font-family: 'Lato','Arial' sans-serif;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 section{
@@ -538,16 +539,67 @@ footer p{
         float: left;
     }
     .steps-box{
-        margin-top: 20px;
+        margin-top: 10%;
     }
     .steps-box:last-child {
         padding-left: 3%;
-        margin-top: 4%;
+        margin-top: 5.5%;
     }
-    
+    .app-screen{
+        width: 50%;
+    }
+
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .contact-form{
+        width: 100%;
+        padding: 2%;
+    }
+
 }
 
 @media only screen and (max-width:767px){
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 50px 0;
+    }
+    .row{
+        padding: 0 4%;
+    }
+    .hero-text-box{
+        padding: 0 4%;    
+        
+    }
+    .col{
+        width: 100%;
+    }
+    .main-nav{
+        display: none;
+    }
+    h2{
+        font-size: 180%;
+    }
+    .long-copy{
+        width: 80%;
+        margin: 2% 10%;
+    }
+
+
+    .steps-box{
+        margin-top: 10%;
+    }
+    .steps-box:last-child {
+        padding-left: 3%;
+        margin-top: 5.5%;
+    }
+    .app-screen{
+        width: 50%;
+    }
   
     
 }
