@@ -235,6 +235,7 @@ text-transform: uppercase;
     position: relative;
     width:450px;
     height: 500px;
+
 }
 
 .steps-box:first-child img{
@@ -252,9 +253,8 @@ text-transform: uppercase;
 }
 
 .steps-box:first-child:hover .app-screen:nth-child(2){
-    transform: translate(80px) rotate(5deg) scale(0.8);
-    opacity: 0.8;
-   
+    transform: translate(80px) rotate(5deg) scale(0.85);
+    opacity: 0.80;
 }
 
 .steps-box:first-child:hover .app-screen:nth-child(1){
@@ -275,8 +275,8 @@ margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
     align-items: center;
-
 }
+
 .works-steps:last-of-type{
     margin-bottom: 40px;
 }
@@ -289,14 +289,16 @@ margin-top: 50px;
     padding: 20px;
     height: 30px;
     justify-content: center;
-   
     border-radius: 50%;
     align-items: center;
 }
 
 .btn-app img{
     height: 50px;
-    margin-right: 10px;
+    margin-right: 5px;
+}
+.btn-app img:first-of-type{
+    margin-left: 30px;
 }
 
 /********************************************************************************/
