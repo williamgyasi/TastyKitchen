@@ -232,39 +232,41 @@ text-transform: uppercase;
 }
 
 .steps-box:first-child{
-    margin-top: 30px;
     position: relative;
     width:450px;
     height: 500px;
-    margin-top: 45px;
-    background-color: red;
-
-    /* transform: rotate(-20deg) skew(15deg) scale(.75);
-    transition: 0.5s; */
 }
 
 .steps-box:first-child img{
     width: 100%;
     position: absolute;
-    transition: 0.5s ease;
+    left: 5%;
+    transition: all 0.5s ease;
+    
 }
 
 
+.steps-box:first-child:hover .app-screen:nth-child(3){
+    opacity: 0;
+    
+}
 
 .steps-box:first-child:hover .app-screen:nth-child(2){
-    transform: translate(80px) rotate(5deg);
+    transform: translate(80px) rotate(5deg) scale(0.8);
+    opacity: 0.8;
+   
 }
 
 .steps-box:first-child:hover .app-screen:nth-child(1){
     transform: translate(-80px) rotate(-5deg);
+    opacity: 0.9;
 }
-
 
 
 
 
 .steps-box:last-child{
-padding-left: 8%;
+padding-left: 10%;
 margin-top: 50px;
 }
 
