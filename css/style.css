@@ -116,20 +116,22 @@ border: none;
 
 .logo{
     width: 100px;
-    height: auto;
+    height: 90px;
     float: left;
+}
+.logo-black{
+    display: none;
 }
 
 .main-nav{
     float: right;
     list-style: none;
+    margin-top: 30px;
     
-
 }
 .main-nav li{
     display: inline-block;
     margin-left: 30px;
-    margin-top: 30px;
     
 }
 
@@ -139,11 +141,10 @@ border: none;
     padding: 8px 0;
     font-size: 90%;
     font-weight: 400;
-    transition: border-bottom 0.5s ease;
+    transition: border-bottom 0.7s linear;
 }
 .main-nav li a:hover ,.main-nav li a:active{
     border-bottom: 2px solid orange;
-
 } 
 
 .sticky{
@@ -152,18 +153,29 @@ border: none;
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.925);
+    box-shadow: 0 2px 2px #efefef;
 }
 
 .sticky .main-nav li a{
     color: #555;
-    padding: 8px 0;
+    padding: 15px 0;
+}
+.sticky .logo{display: none;}
+.sticky .logo-black {
+    display: block;
+    width: 80px;
+    padding: 0;
+    height: 65px;
+    margin-left: 10px;
 }
 .sticky .main-nav{
-    margin-top: 0;
+    margin-top: 20px;
 }
-.sticky .main-nav li{
-    margin-top: 10px;
-}
+/* .sticky .main-nav li{
+    margin-top: 20px;
+} */
+
+
 
 
 /***********************************************************************************/
@@ -582,10 +594,11 @@ footer p{
         margin: 0 10%;
     }
     .logo {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
         float: left;
     }
+    
     .steps-box{
         margin-top: 10%;
     }
