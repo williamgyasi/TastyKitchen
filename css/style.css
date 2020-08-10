@@ -675,6 +675,14 @@ footer p{
     button, input, optgroup, select, textarea {
         margin: 5px 0;
     }
+
+    .steps-box:first-child{
+        position: relative;
+        width:450px;
+        height: 500px;
+        margin: 0 auto;
+        left: 15%;
+    }
 }
 
 @media only screen and (max-width:480px){
@@ -684,6 +692,15 @@ footer p{
     section{
         padding: 50px 0;
     }
+
+    .steps-box:first-child{
+        position: relative;
+        width:350px;
+        height: 400px;
+        margin: 0 auto;
+        left: 10%;
+    }
+    
 
     .btn-full {
         margin-right: 2px;   
@@ -709,6 +726,12 @@ footer p{
         font-size: 12px;
     }
     section{padding: 40px 0;}
+
+    .steps-box:first-child{
+        display: none;
+    
+    }
+    
 
     .btn-app img{
         margin-left: 10px;
