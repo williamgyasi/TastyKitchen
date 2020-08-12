@@ -93,6 +93,11 @@ $('.aos-6').waypoint(function(direction){
 })
 
 
+$('.mobile-nav').click(()=>{
+  let mobile_nav=$('.mobile-nav')
+})
+
+
 
     
     

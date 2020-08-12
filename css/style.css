@@ -126,12 +126,12 @@ border: none;
 .main-nav{
     float: right;
     list-style: none;
-    margin-top: 30px;
+    margin-top: 27px;
     
 }
 .main-nav li{
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 15px;
     
 }
 
@@ -146,6 +146,16 @@ border: none;
 .main-nav li a:hover ,.main-nav li a:active{
     border-bottom: 2px solid orange;
 } 
+
+
+.mobile-nav{
+    float: right;
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
 
 .sticky{
     position: fixed;
@@ -266,8 +276,8 @@ text-transform: uppercase;
 
 .steps-box:first-child{
     position: relative;
-    width:450px;
-    height: 500px;
+    width:400px;
+    height: 450px;
 
 }
 
@@ -634,15 +644,14 @@ footer p{
         padding: 0 4%;
     }
     .hero-text-box{
-        padding: 0 4%;    
+        padding: 0 4%; 
+        top: 60%;   
         
     }
     .col{
         width: 100%;
     }
-    .main-nav{
-        display: none;
-    }
+    
     h2{
         font-size: 180%;
     }
@@ -717,6 +726,64 @@ footer p{
         margin: 0 auto;
         left: 15%;
     }
+    
+    .main-nav{display: none;}
+    .main-nav{
+        float: left;
+        margin-left: 15px;
+    }
+
+    .main-nav li{
+        display: block;
+    }
+
+    .mobile-nav{
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0 ;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+
+
+    /* .sticky{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.925);
+        box-shadow: 0 2px 2px #efefef;
+        z-index: 999;
+    } */
+
+    .sticky .main-nav{
+        margin-top:10px ;
+    }
+    
+    .sticky .main-nav li a{
+        padding: 15px 0;
+    }
+    .sticky .logo{display: none;}
+    .sticky .logo-black {
+        display: block;
+        width: 80px;
+        padding: 0;
+        height: 65px;
+        margin-left: 10px;
+    }
+    .sticky .main-nav{
+        margin-top: 20px;
+    }
+    .sticky .mobile-nav{
+        color:black;
+        margin-top: 15px;
+    }
 }
 
 @media only screen and (max-width:480px){
@@ -784,6 +851,10 @@ footer p{
     button, input, optgroup, select, textarea {
         margin: 10px 0;
     }
+
+    
+
+
 
     
 }
