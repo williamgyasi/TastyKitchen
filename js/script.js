@@ -8,10 +8,12 @@ $(document).ready(function(){
     },{
         offset:'20%'
     })
-    // var waypoints = $('#handler-first').waypoint(function(direction) {
-    //     notify(this.element.id + ' hit 25% from top of window') 
-    //   }, {
-    //     offset: '25%'
-    //   })
 
+    $('.scroll-to-plan').click(()=>{
+        console.log("eork")
+        $('html,body').animate({scrollTop: $('.scroll-plans').offset().top},1000)
+    })
+
+    
+    
 })
