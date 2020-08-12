@@ -56,6 +56,15 @@ $(document).ready(function(){
     }
   });
 
+  $('.aos-1').waypoint(function(direction){
+      if(direction==='down'){
+          $('.aos-1').addClass('animate__animated animate__bounce')
+      }
+
+  },{
+      offset:'40%'
+  })
+
     
     
 })

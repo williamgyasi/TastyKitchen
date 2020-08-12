@@ -787,3 +787,10 @@ footer p{
 
     
 }
+
+.aos-1{
+    opacity: 0;
+}
+.animate__animated.aos-1{
+    opacity: 1;
+}
