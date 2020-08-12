@@ -94,7 +94,9 @@ $('.aos-6').waypoint(function(direction){
 
 
 $('.mobile-nav').click(()=>{
-  let mobile_nav=$('.mobile-nav')
+  var mobile_nav=$('.main-nav')
+  mobile_nav.slideToggle(200)
+
 })
 
 
