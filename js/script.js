@@ -57,13 +57,42 @@ $(document).ready(function(){
   });
 
   $('.aos-1').waypoint(function(direction){
-      if(direction==='down'){
-          $('.aos-1').addClass('animate__animated animate__bounce')
-      }
+          $('.aos-1').addClass('animate__animated animate__fadeInDown')
 
   },{
       offset:'40%'
   })
+
+  $('.aos-2').waypoint(function(direction){
+        $('.aos-2').addClass('animate__animated animate__fadeInUp animate__delay-0.5s')
+
+},{
+    offset:'40%'
+})
+$('.aos-3').waypoint(function(direction){
+        $('.aos-3').addClass('animate__animated animate__fadeInUp animate__delay-0.7s')
+},{
+    offset:'40%'
+})
+$('.aos-4').waypoint(function(direction){
+        $('.aos-4').addClass('animate__animated animate__fadeInUp animate__delay-1s')
+},{
+    offset:'40%'
+})
+
+$('.aos-5').waypoint(function(direction){
+        $('.aos-5').addClass('animate__animated animate__slideInUp animate__slow ')
+},{
+    offset:'40%'
+})
+
+$('.aos-6').waypoint(function(direction){
+        $('.aos-6').addClass('animate__animated animate__rubberBand')
+},{
+    offset:'40%'
+})
+
+
 
     
     

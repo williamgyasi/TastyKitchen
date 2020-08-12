@@ -788,9 +788,20 @@ footer p{
     
 }
 
-.aos-1{
+.aos-1,
+.aos-2,
+.aos-3,
+.aos-4,
+.aos-5
+{
     opacity: 0;
+    animation-duration: 1s;
 }
-.animate__animated.aos-1{
+.animate__animated.aos-1,
+.animate__animated.aos-2,
+.animate__animated.aos-3,
+.animate__animated.aos-4,
+.animate__animated.aos-5
+{
     opacity: 1;
 }
