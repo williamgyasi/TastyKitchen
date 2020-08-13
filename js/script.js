@@ -95,7 +95,30 @@ $('.aos-6').waypoint(function(direction){
 
 $('.mobile-nav').click(()=>{
   var mobile_nav=$('.main-nav')
+  var icon=$('.mobile-nav ion-icon')
   mobile_nav.slideToggle(200)
+
+  var attr = $(".mobile-nav ion-icon").attr('name');
+
+// For some browsers, `attr` is undefined; for others,
+// `attr` is false.  Check for both.
+if (typeof attr !== typeof undefined && attr !== false) {
+  icon.attr("name","close-outline")
+  icon.removeAttr("name")
+}
+else{
+  icon.attr("name","menu-outline")
+
+}
+  // if(icon.attr("name","menu-outline")){
+  //   icon.attr("name","close-outline")
+  //   icon.removeAttr()
+  //   console.log("Changes")
+  // }
+  // else{
+  //   icon.attr("name","menu-outline")
+  //   console.log("NOT CHAN")
+  // }
 
 })
 
